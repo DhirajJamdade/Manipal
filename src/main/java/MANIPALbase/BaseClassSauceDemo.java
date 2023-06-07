@@ -16,5 +16,6 @@ public class BaseClassSauceDemo {
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	    driver.get("https://demowebshop.tricentis.com/");
 		return driver;
+		System.print.out("kdnc")
 	}
 }
